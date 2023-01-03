@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Jost', sans-serif;
+    box-sizing: border-box;
+}
+
+.bg-color{
+    background-color: rgb(55, 81, 126);
+    border-bottom: 1px solid #2f3b4f;
+}
+.navbar-brand img, svg {
+    width: 150px;
+}
+
+.navbar-nav{}
+.navbar-nav li{}
+.navbar-nav li a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+    padding-left: 30px !important
+}
+.navbar-nav li a:hover{
+    color: #379cf4;
+
+}
+.btn-circle {
+    border-radius: 100px;
+    font-size: 16px;
+    background-color: #0a58ca;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 30px;
+ }
+ .btn:hover {
+    color: #ffffff;
+    background-color: #47b2e4;
+}
+ .section-1{
+    background-color: #37517e;
+    padding: 150px 0;
+    position: relative;
+}
+ .section-1 h1{
+    font-size: 45px;
+    line-height: 65px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 25px;
+}
+ .section-1 p{
+    color: #fff;
+    font-weight: 400;
+    padding: 40px 0;
+}
+.section-1 span{
+    color: #379cf4;
+}
+.bg-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(32%, 4%);
+    width: 60%;
+    max-width: 100%;
+}
+.bg-img img{
+    width: 80%;
+}
+.icon{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 100px;
+}
+.icon a{}
+.icon i{
+    font-size: 35px;
+    color: #fff;
+}
+.icon i:hover{
+}
+.icon span{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.brand-img{}
+.brand-img img{
+    max-width: 100%;
+    margin: 90px 0;
+    padding: 0 10px;
+}
+.card-section{
+    padding-bottom: 100px;
+}
+.card1{
+    display: flex;
+    justify-content: space-around;
+}
+.card1 h3{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 35px;
+    font-weight: 500;
+    color: rgb(18, 48, 74);
+}
+.card1 p{
+    color: rgb(88, 119, 144);
+    font-size: 18px;
+    padding: 25px 0;
+}
+.card1 span{
+    color: #379cf4;
+}
+.card1 span i{
+    font-size: 55px;
+    color: #47b2e4;
+    line-height: 1.5;
+}
+.card1 h2{line-height: 45px;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(18, 48, 74);
+}
+.text-card h2{
+    line-height: 45px;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(18, 48, 74);
+}
+.text-card p{
+    color: rgb(88, 119, 144);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 35px 0;
+}
+.text-card h2 span{
+    color: #379cf4;
+}
+.card:hover{
+        border: 1px solid rgb(241, 240, 240);
+    box-shadow: 0 3px 20px -2px rgb(20 45 100 / 10%);
+}
+
+.section-3{
+    padding: 150px 0;
+    position: relative;
+    background-color: #F1F5F7;
+}
+.section-3 h1{line-height: 45px;font-size: 30px;font-weight: 500;color: rgb(18, 48, 74);}
+.section-3 p{
+    color: rgb(88, 119, 144);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 35px 0;
+}
+.section-3 span{
+    color: #379cf4;
+}
+.bg-img-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-2%, 15%);
+    width: 50%;
+}
+.section-4{
+    padding: 80px 0;
+}
+.section-4 h1{
+    line-height: 45px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.section-4 span{
+    color: #47b2e4;
+}
+.section-4 ul{}
+.section-4 ul li{
+    color: rgb(88, 119, 144);
+    font-size: 17px;
+    font-weight: 500;
+}
+.section-4 ul li i{
+    background-color: rgb(18, 48, 74);
+    color: #fff;
+    width: 30px;
+    height: 30px;line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 17px;
+    margin-right: 10px;
+}
+.section-5{
+    padding: 100px 0;
+    background-color: #F1F5F7;
+}
+.section-5 h1{
+    line-height: 45px;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(18, 48, 74);
+}
+.section-5 p{
+    max-width: 650px;
+    margin: auto;
+    color: #6fa6d7;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+.card2{
+    margin-bottom: 30px;
+}
+.card2 h3{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 35px;
+    font-weight: 500;
+    color: rgb(18, 48, 74);
+    padding: 0 15px;
+}
+.card2 p{
+    padding: 0 15px;
+    padding-bottom: 15px;
+}
+.card2 span{}
+.card2 span i{
+    font-size: 55px;
+    color: #47b2e4;
+    line-height: 1.8;
+    padding: 0 15px;
+}
+.section-6{
+    padding: 100px 0;
+    background-color: #37517e;
+}
+.section-6 h1{
+    line-height: 45px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+.section-6 p{
+    max-width: 650px;
+    margin: auto;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+
+.play-icon i{
+    font-size: 35px;
+    display: inline-block;
+    background-color: #47b2e4;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    transition-duration: 0.5s;
+    color: #ffffff;
+}
+.section-7{}
+.reviwe-section{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+.reviwe-section p{
+    margin-bottom: 30px;
+    color: rgb(88, 119, 144);
+    padding-right: 40px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.reviwe-section p::before{
+    content: '';
+    background-image: url(./2.svg);
+    background-size: 17px 17px;
+    background-repeat: repeat-x;
+    width: 84px;
+    height: 17px;
+    bottom: 68px;
+    position: absolute;
+}
+.reviwe-img{
+    max-width: 200px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid #00000017;
+    margin-bottom: 25px;
+}
+.testimonial{position: absolute;top: 0;margin: 0;padding-left: 70px;color: rgb(88, 119, 144);}
+.testimonial span:first-child{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 4px;
+    display: block;
+}
+.testimonial-text{}
+.testimonial-text h2{
+    line-height: 50px;
+    font-size: 26px;
+    font-weight: 500;
+    color: rgb(18, 48, 74);
+    margin-bottom: 25px;
+}
+.testimonial-text span{
+    color: #47b2e4;
+}
+.testimonial-text{}
+.slider{
+}
+.slider ul{
+}
+.slider ul li{
+}
+.slider ul li i{background-color: #fff;
+    color: rgb(18, 48, 74);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 17px;margin-right: 10px;border: 1px solid #00000026;font-size: 20px;border-radius: 4px;
+}
+.section-8{
+    padding: 150px 0;
+    background-color: #F1F5F7;
+    position: relative;
+}
+.section-8 h2{
+    line-height: 45px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.section-8 h2 span{
+    color: #47b2e4;
+}
+.section-8 p{
+    color: rgb(88, 119, 144);
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.members li:first-child{padding-right: 30px;border-right: 1px solid #37517e2b;color: rgb(59 75 87);}
+.members li:last-child{padding-left: 30px;color: rgb(71 89 104);}
+.members li h3{
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.members li h4{
+    font-size: 50px;
+    line-height: 70px;
+}
+.nav {
+    margin-bottom: 40px;
+}
+.btn-area a{}
+.btn-area a:last-child{
+    margin-left: 30px;
+}
+.bg-img-3{
+    position: absolute;
+    width: 60%;
+    bottom: 0;
+    right: 0;
+    transform: translate(32%, -9%);
+}
+.cnt-pricing-table {
+    padding: 25px 0;
+    border-radius: 6px;
+    background-color: #FFF;
+    text-align: left;
+    width: 95%;
+}
+.pricing-table-big {
+    padding: 45px 5px;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+.pricing-table-big {
+    border-color: rgb(71, 178, 228);
+}
+.padding{
+    padding: 0 35px;
+}
+.padding h2{
+    font-size: 20px;
+    color: rgb(18, 48, 74);
+}
+.padding h3{
+    font-size: 45px;
+    margin-left: 5px;
+    display: block;
+    color: rgb(18, 48, 74);
+}
+.plan{
+    padding: 100px 0;
+}
+.upper-plan h1{
+    line-height: 45px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #12304a;
+    text-align: center;
+}
+.upper-plan h1 span{
+    color: #4cb4e5;
+}
+.upper-plan p{
+    max-width: 650px;
+    margin: auto;
+    color: #6fa6d7;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    font-weight: 500;
+    text-align: center;
+}
+.padding >span{
+    color: #47b2e4;
+    font-size: 17px;
+}
+.plan li{
+    border-bottom: 1px solid rgb(230, 230, 230);
+    font-size: 17px;
+    padding: 10px 0 10px 0;
+}
+.plan li i{
+    color: green;
+    padding-right: 15px;
+}
+.list-unstyled {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
